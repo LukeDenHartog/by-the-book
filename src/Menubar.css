@@ -11,8 +11,13 @@
     align-items: center;
 }
 
+.navbar {
+    margin-top: 15px;
+}
+
 @media (max-width: 991px) {
     .dropdown-menu {
       text-align: center;
     }
   }
+  
