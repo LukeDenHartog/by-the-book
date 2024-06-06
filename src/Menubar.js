@@ -1,7 +1,9 @@
+import "./Menubar.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 function Menubar() {
   return (
@@ -12,7 +14,7 @@ function Menubar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           <NavDropdown title="Blackjack (21)" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Blackjack Rules (21) </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Basic Rules </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Basic Strategy
               </NavDropdown.Item>
@@ -27,30 +29,30 @@ function Menubar() {
                 Sports
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">Support for gambling addiction</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Support for Gambling Addiction</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
           <NavDropdown title="About" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                About By the Book
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                My github profile
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Account" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Log in</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Sign out
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Settings
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

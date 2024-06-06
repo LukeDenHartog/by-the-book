@@ -1,0 +1,18 @@
+/* Centering the navbar items */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#collapsible-nav-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+      text-align: center;
+    }
+  }
