@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Menubar from "./Menubar"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Menubar/>
   </React.StrictMode>,
   document.getElementById("root")
 );
