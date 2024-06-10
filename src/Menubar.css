@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.nav-item {
+    color: white;
+}
+
 #collapsible-nav-dropdown {
     display: flex;
     justify-content: center;
@@ -12,6 +16,29 @@
 
 .navbar {
     margin-top: 15px;
+}
+
+.nav-background-color{
+    background-color: #282d43cc;
+  }
+
+#brand-name {
+    color: #3388FF;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-dropdown .nav-link,
+.navbar-nav .nav-dropdown .nav-dropdown .nav-link {
+    color: white;
 }
 
 @media (max-width: 991px) {
