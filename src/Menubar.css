@@ -14,9 +14,6 @@
     align-items: center;
 }
 
-.navbar {
-    margin-top: 15px;
-}
 
 .nav-background-color{
     background-color: #282d43cc;
@@ -46,4 +43,9 @@
       text-align: center;
     }
   }
-  
+
+@media (min-width: 991px) {
+    .navbar {
+        margin-top: 15px;
+        }
+}

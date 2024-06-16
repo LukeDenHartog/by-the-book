@@ -4,10 +4,12 @@ import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Menubar from "./Menubar"
 import Footer from "./Footer"
+import InteractiveInterface from "./InteractiveInterface"
 
 ReactDOM.render(
   <React.StrictMode>
     <Menubar/>
+    <InteractiveInterface/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById("root")
