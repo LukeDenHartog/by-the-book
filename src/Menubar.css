@@ -14,10 +14,9 @@
     align-items: center;
 }
 
-
 .nav-background-color{
     background-color: #282d43cc;
-  }
+}
 
 #brand-name {
     color: #3388FF;
@@ -40,15 +39,25 @@
 
 @media (max-width: 960px) {
     .dropdown-menu {
-      text-align: center;
+        text-align: center;
     }
-  }
+}
 
 @media (min-width: 960px) {
     .navbar {
-        margin-top: 15px;
-        }
+        margin: 15px 20px 0 20px;
+        border-radius: 15px;
+    }
+    .nav-background-color {
+        width: 97%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+        position: fixed;
+    }
 }
+
 .navbar-nav .nav-link.show {
     color: skyblue;
-  }
+}
