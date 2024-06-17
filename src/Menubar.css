@@ -38,14 +38,17 @@
     color: white;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 960px) {
     .dropdown-menu {
       text-align: center;
     }
   }
 
-@media (min-width: 991px) {
+@media (min-width: 960px) {
     .navbar {
         margin-top: 15px;
         }
 }
+.navbar-nav .nav-link.show {
+    color: skyblue;
+  }
