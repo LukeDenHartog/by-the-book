@@ -10,7 +10,7 @@ function Menubar() {
     <Navbar collapseOnSelect expand="lg" className="nav-background-color">
       <Container>
         <Navbar.Brand href="#home" id="brand-name">By the Book</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           <NavDropdown title="Blackjack (21)" id="collapsible-nav-dropdown">

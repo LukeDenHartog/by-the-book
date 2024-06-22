@@ -1,20 +1,47 @@
-import "./InteractiveInterface.css";
-import Card from 'react-bootstrap/Card';
+import './InteractiveInterface.css'
+import Carousel from 'react-bootstrap/Carousel';
+import kayshaImage from './kaysha.jpeg';
+import blackBackgroundImage from './blackbackground.jpeg'
+import redTop from './redtop.jpg'
 
-function InteractiveInterface() {
-    return (
-        <Card className="bg-dark text-white custom-background">
-            <Card.Img src="./kaysha.jpg" alt="Card image" id="kayshaPic" />
-            <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
-        </Card>
-    );
+function UncontrolledExample() {
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img
+          src={blackBackgroundImage}
+          alt="First slide"
+          className="d-block w-100 interfacePic"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={kayshaImage}
+          alt="Second slide"
+          className="d-block w-100 interfacePic"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={redTop}
+          alt="Third slide"
+          className="d-block w-100 interfacePic"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default InteractiveInterface;
+export default UncontrolledExample;

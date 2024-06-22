@@ -1,8 +1,7 @@
 @media (max-width: 720px) {
-    #kayshaPic {
+    .interfacePic {
         height: 500px;
         width: 100%;
-        object-fit: cover;
     }
 }
 
@@ -10,4 +9,11 @@
     .custom-background {
         margin: 0 7.5rem 3rem 7.5rem;
     }
+    #interfacePic {
+        max-height: 725px;
+    }
+}
+
+.interfacePic {
+    max-height: 720px;
 }
