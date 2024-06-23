@@ -17,8 +17,9 @@ function UncontrolledExample() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption>
+          <h3 className="slideHeader">BlackJack Rules</h3>
           <div className="caption-background">
-            <h3>BlackJack Rules</h3>
+            
             <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
           <Button className="interfaceButton"variant="primary">Learn More</Button>{' '}
