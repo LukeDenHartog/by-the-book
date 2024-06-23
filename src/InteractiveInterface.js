@@ -21,7 +21,7 @@ function UncontrolledExample() {
             <h3>BlackJack Rules</h3>
             <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
-          <Button variant="primary">Learn More</Button>{' '}
+          <Button className="interfaceButton"variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
