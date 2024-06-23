@@ -5,6 +5,7 @@ import greenTop from './greentop.jpg';
 import blackBackgroundImage from './blackbackground.jpeg'
 import groupHands from './grouphands.jpeg'
 import redTop from './redtop.jpg'
+import blackBackgroundCards from './black-background-cards.jpeg'
 
 function UncontrolledExample() {
   return (
@@ -19,22 +20,6 @@ function UncontrolledExample() {
           <div className="caption-background">
             <h3>BlackJack Rules</h3>
             <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
-        
-          </div>
-          <Button variant="primary">Learn More</Button>{' '}
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          src={groupHands}
-          alt="Third slide"
-          className="d-block w-100 interfacePic"
-        />
-        <Carousel.Caption>
-          <div className="caption-background">
-          <h3>Get help with your addiction</h3>
-          <p className="carouselParagraph"></p>
-        
           </div>
           <Button variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
@@ -55,6 +40,34 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          src={blackBackgroundCards}
+          alt="Third slide"
+          className="d-block w-100 interfacePic"
+        />
+        <Carousel.Caption>
+          <div className="caption-background">
+          <h3>Card Counting</h3>
+          <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
+          <Button variant="primary">Learn More</Button>{' '}
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={groupHands}
+          alt="Third slide"
+          className="d-block w-100 interfacePic"
+        />
+        <Carousel.Caption>
+          <div className="caption-background">
+          <h3>Get help with your addiction</h3>
+          <p className="carouselParagraph"></p>
+          </div>
+          <Button variant="primary">Learn More</Button>{' '}
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
           src={blackBackgroundImage}
           alt="Third slide"
           className="d-block w-100 interfacePic"
@@ -62,8 +75,7 @@ function UncontrolledExample() {
         <Carousel.Caption>
           <div className="caption-background">
           <h3>Sports Betting Advice</h3>
-          <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.
-</p>
+          <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
           <Button variant="primary">Learn More</Button>{' '}
           </div>
         </Carousel.Caption>
