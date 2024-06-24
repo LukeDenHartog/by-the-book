@@ -1,3 +1,12 @@
+.carousel-indicators > button {
+    width: 60px !important;
+    height: 8px !important;
+    border-radius: 12px !important;
+    margin: 0 10px !important;
+    padding: 0 25px !important;
+    border: 0 !important;
+  }
+  
 .carousel-caption {
     padding-bottom: 5px;
 }
