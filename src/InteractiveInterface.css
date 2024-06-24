@@ -52,4 +52,8 @@
     .carousel {
         padding: 0 10px;
     }
+    .carouselParagraph {
+        font-size: 26px;
+        font-weight: 575;
+    }
 }
