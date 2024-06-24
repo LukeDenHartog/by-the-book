@@ -34,9 +34,9 @@ function UncontrolledExample() {
         <Carousel.Caption>
           <div className="caption-background">
             <h3>Basic Strategy</h3>
-            <p className="carouselParagraph">Strategy determines the best move for every hand: hit, stand, double, split.</p>
-            <Button variant="primary">Learn More</Button>{' '}
+            <p className="carouselParagraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
           </div>
+          <Button className="interfaceButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,8 +49,8 @@ function UncontrolledExample() {
           <div className="caption-background">
           <h3>Card Counting</h3>
           <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
-          <Button variant="primary">Learn More</Button>{' '}
           </div>
+          <Button className="interfaceButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -62,9 +62,9 @@ function UncontrolledExample() {
         <Carousel.Caption>
           <div className="caption-background">
           <h3>Get help with your addiction</h3>
-          <p className="carouselParagraph"></p>
+          <p className="carouselParagraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
-          <Button variant="primary">Learn More</Button>{' '}
+          <Button className="interfaceButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,8 +77,8 @@ function UncontrolledExample() {
           <div className="caption-background">
           <h3>Sports Betting Advice</h3>
           <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
-          <Button variant="primary">Learn More</Button>{' '}
           </div>
+          <Button className="interfaceButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
