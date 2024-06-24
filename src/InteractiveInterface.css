@@ -1,6 +1,7 @@
 .carousel-caption {
     padding-bottom: 5px;
 }
+
 .slideHeader{
     display: inline-block;
     font-size: 35px;
@@ -10,29 +11,31 @@
     margin: 50px 10px 15px;
     padding: 7px;
 }
+
 .carouselParagraph {
     padding: 10px;
     margin-bottom: 0px;
 }
+
 .interfaceButton {
     margin: 25px 10px;
     padding: 20px 32px;
     border-radius: 3rem;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 800;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 175px;
+    transition: width .65s ease, font-size .65s ease;
 }
+
 .contentFlex {
     display: flex;
 }
+
 .caption-background {
     background-color: rgba(40, 45, 67, 0.85);
     border-radius: 1.5rem;
     padding: 1.5rem;
-}
-
-.interfacePic {
-    max-height: 720px;
 }
 
 @media (max-width: 720px) {
@@ -41,7 +44,6 @@
         width: 100%;
     }
 }
-
 @media (min-width: 720px) {
     .custom-background {
         margin: 0 7.5rem 3rem 7.5rem;
@@ -56,4 +58,23 @@
         font-size: 26px;
         font-weight: 575;
     }
-}
+} 
+@media (min-width: 768px) {
+    .interfaceButton {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 997px) {
+    .interfaceButton {
+      width: 215px;
+      font-size: 25px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .interfaceButton {
+      width: 250px;
+    }
+  }
+   
