@@ -1,3 +1,18 @@
+.carousel-control-next, .carousel-control-prev {
+    transition: width .99s ease;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #333B4B;
+    border-radius: 50%;
+    padding: 15px;
+    border: 15px solid #333B4B;
+}
+
 .carousel-indicators > button {
     width: 60px !important;
     height: 8px !important;
@@ -67,7 +82,11 @@
         font-size: 26px;
         font-weight: 575;
     }
+    .carousel-control-next, .carousel-control-prev {
+        width: 9.5%;
+    }
 }
+
 @media (min-width: 882px) {
     .caption-background {
         margin: 30px 150px;
@@ -95,7 +114,16 @@
     .interfaceLearnButton {
       width: 250px;
     }
-  }
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+}
+
+@media (max-width: 499px) {
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: none;
+    }
+}
 
 @media (min-width: 720px) {
     .carousel-indicators > button {
