@@ -1,11 +1,11 @@
 import './InteractiveInterface.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import greenTop from './greentop.jpg';
-import blackBackgroundImage from './blackbackground.jpeg'
-import groupHands from './grouphands.jpeg'
-import redTop from './redtop.jpg'
-import blackBackgroundCards from './black-background-cards.jpeg'
+import greenTop from '../src/homePagePhotos/carouselPhotos/greentop.jpg';
+import blackBackgroundImage from '../src/homePagePhotos/carouselPhotos/blackbackground.jpeg'
+import groupHands from '../src/homePagePhotos/carouselPhotos/grouphands.jpeg'
+import redTop from '../src/homePagePhotos/carouselPhotos/redtop.jpg'
+import blackBackgroundCards from '../src/homePagePhotos/carouselPhotos/black-background-cards.jpeg'
 
 function UncontrolledExample() {
   return (

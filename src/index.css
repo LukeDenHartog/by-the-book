@@ -18,7 +18,7 @@ body, html {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url('./joshua-woroniecki-TspYRqQrErc-unsplash.jpg');
+  background-image: url('../src/homePagePhotos/indexBackground/joshua-woroniecki-TspYRqQrErc-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
