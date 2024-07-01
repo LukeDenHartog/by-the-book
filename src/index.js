@@ -5,11 +5,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Menubar from "./Navbar"
 import Footer from "./Footer"
 import InteractiveInterface from "./InteractiveInterface"
+import Contentgroup from "./Contentgroup"
 
 ReactDOM.render(
   <React.StrictMode>
     <Menubar/>
     <InteractiveInterface/>
+    <Contentgroup/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById("root")

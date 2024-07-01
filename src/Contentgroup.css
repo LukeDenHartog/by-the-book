@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* max-width: 280px; */
+    gap: 1rem;
+}
+
+.custom-cards {
+flex-grow: 1;
+width: calc(50% - 15px);
+max-width: 280px;
+}
