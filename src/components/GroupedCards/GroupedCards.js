@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './Contentgroup.css';
-import girlWithCards from './homePagePhotos/cardPhotos/LifeMag-cards-publicDomain.jpeg';
+import './GroupedCards.css';
+import girlWithCards from '../../assets/images/HomePagePhotos/cardPhotos/LifeMag-cards-publicDomain.jpeg';
 
 function ImageAndTextExample() {
   return (

@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Menubar from "./Navbar"
-import Footer from "./Footer"
-import InteractiveInterface from "./InteractiveInterface"
-import Contentgroup from "./Contentgroup"
+import Menubar from "./components/Navbar/Navbar.js"
+import Footer from "./components/Footer/Footer.js"
+import Carousel from "./pages/Home/Carousel.js"
+import Contentgroup from "./components/GroupedCards/GroupedCards.js"
 
 ReactDOM.render(
   <React.StrictMode>
     <Menubar/>
-    <InteractiveInterface/>
+    <Carousel/>
     <Contentgroup/>
     <Footer/>
   </React.StrictMode>,
