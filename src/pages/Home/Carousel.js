@@ -7,7 +7,7 @@ import redTop from '../../assets/images/HomePagePhotos/carouselPhotos/redtop.jpg
 import blackBackgroundCards from '../../assets/images/HomePagePhotos/carouselPhotos/black-background-cards.jpeg'
 import blackBackgroundImage from '../../assets/images/HomePagePhotos/carouselPhotos/blackbackground.jpeg'
 
-function UncontrolledExample() {
+function HomeCarousel() {
   return (
     <Carousel interval={null}>
       <Carousel.Item>
@@ -86,4 +86,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default HomeCarousel;

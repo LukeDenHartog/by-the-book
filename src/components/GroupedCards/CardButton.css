@@ -1,0 +1,57 @@
+.button {
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+
+  }
+
+  .button:hover {
+    background-color: #0d6efd;
+}
+  
+  .button:active {
+    background-color: #0d6efd;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 379px) {
+    .button {
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 500px) {
+    .button {
+        font-size: 1.025rem;
+        padding: 10px 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .button {
+        font-size: ;
+    }
+}
+
+@media (min-width: 1000px) {
+    .button {
+        font-size: ;
+    }
+}
