@@ -2,54 +2,61 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './GroupedCards.css';
 import './CardButton.css';
-import girlWithCards from '../../assets/images/HomePagePhotos/cardPhotos/LifeMag-cards-publicDomain.jpeg';
+import  vegasBirdsEyeImg from '../../assets/images/HomePagePhotos/cardPhotos/VegasBirdsEye.jpeg';
+import pokerChipsImg from '../../assets/images/HomePagePhotos/cardPhotos/PokerChips.jpeg';
+import holdingCardsImg from '../../assets/images/HomePagePhotos/cardPhotos/LifeMagHoldingCards.jpeg';
+import ultimateBjTable from '../../assets/images/HomePagePhotos/cardPhotos/ultimateBlackjackTable.jpeg';
+import vegasSignImg from '../../assets/images/HomePagePhotos/cardPhotos/LasVegasSign.jpeg';
+import ParisHotelImg from  '../../assets/images/HomePagePhotos/cardPhotos/LasVegasParisHotel.jpeg';
+import jackAceThreeChipsImg from '../../assets/images/HomePagePhotos/cardPhotos/JackAceThreeChips.jpeg';
+import franziskaBuffetImg from '../../assets/images/HomePagePhotos/cardPhotos/FranziskaGiffeyBuffet.jpeg';
 
 function ImageAndText() {
   return (
     <div className="card-container">
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={holdingCardsImg} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">Blackjack History</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={jackAceThreeChipsImg} alt="Card image" />
         <Card.ImgOverlay>
         <button class="button">Learn from Legends</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={vegasBirdsEyeImg} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">1st Vegas experiences</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={ultimateBjTable} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">Good Vs Bad Tables</button>
         </Card.ImgOverlay>
       </Card>      <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={ParisHotelImg} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">Vegas Content Creators</button> 
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={pokerChipsImg} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">Buy a Blackjack Table</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={franziskaBuffetImg} alt="Card image" />
         <Card.ImgOverlay>
         <button class="button">What to eat in Vegas</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
-        <Card.Img src={girlWithCards} alt="Card image" />
+        <Card.Img src={vegasSignImg} alt="Card image" />
         <Card.ImgOverlay>
           <button class="button">Vegas Weather Forecast</button>
         </Card.ImgOverlay>
