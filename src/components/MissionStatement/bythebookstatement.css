@@ -18,7 +18,19 @@
     line-height: 40px;
     font-weight: 800;
     font-size: 19px;
-  }
+}
+
+#avoid-casinos-text {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+}
+
+#compound-interest-text {
+    text-decoration: underline;
+    text-decoration-color: rgb(26, 248, 26);
+    color: rgb(26, 248, 26);
+}
 
 @media (min-width: 465px) {
     .quick-mission-statement-text{
