@@ -1,11 +1,11 @@
 import './Carousel.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import greenTop from '../../assets/images/HomePagePhotos/carouselPhotos/greentop.jpg';
-import groupHands from '../../assets/images/HomePagePhotos/carouselPhotos/grouphands.jpeg'
-import redTop from '../../assets/images/HomePagePhotos/carouselPhotos/redtop.jpg'
-import blackBackgroundCards from '../../assets/images/HomePagePhotos/carouselPhotos/black-background-cards.jpeg'
-import blackBackgroundImage from '../../assets/images/HomePagePhotos/carouselPhotos/blackbackground.jpeg'
+import greenTop from '../../assets/images/HomePagePhotos/carouselPhotos/Greentop.jpg';
+import groupHands from '../../assets/images/HomePagePhotos/carouselPhotos/Grouphands.jpeg'
+import redTop from '../../assets/images/HomePagePhotos/carouselPhotos/Redtop.jpg'
+import blackBackgroundCards from '../../assets/images/HomePagePhotos/carouselPhotos/Black-background-cards.jpeg'
+import blackBackgroundImage from '../../assets/images/HomePagePhotos/carouselPhotos/Blackbackground.jpeg'
 
 function HomeCarousel() {
   return (
@@ -18,8 +18,7 @@ function HomeCarousel() {
         />
         <Carousel.Caption>
           <h3 className="slideHeader">BlackJack Rules</h3>
-          <div className="caption-background">
-            
+          <div className="caption-background"> 
             <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
           <Button className="interfaceLearnButton"variant="primary">Learn More</Button>{' '}
@@ -48,7 +47,7 @@ function HomeCarousel() {
         <Carousel.Caption>
           <h3 className="slideHeader">Card Counting</h3>
           <div className="caption-background">
-          <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
+            <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
           </div>
           <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
@@ -62,7 +61,7 @@ function HomeCarousel() {
         <Carousel.Caption>
         <h3 className="slideHeader">Get help with your addiction</h3>
           <div className="caption-background">
-          <p className="carouselParagraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
+            <p className="carouselParagraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
           <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>
@@ -76,8 +75,7 @@ function HomeCarousel() {
         <Carousel.Caption>
           <h3 className="slideHeader">Sports Betting Advice</h3>
           <div className="caption-background">
-
-          <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
+            <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
           </div>
           <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
         </Carousel.Caption>

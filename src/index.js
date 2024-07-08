@@ -6,12 +6,14 @@ import Menubar from "./components/Navbar/Navbar.js"
 import Footer from "./components/Footer/Footer.js"
 import Carousel from "./pages/Home/Carousel.js"
 import Contentgroup from "./components/GroupedCards/GroupedCards.js"
+import BytheBookStatement from "./components/MissionStatement/BytheBookStatement.js"
 
 ReactDOM.render(
   <React.StrictMode>
     <Menubar/>
     <Carousel/>
     <Contentgroup/>
+    <BytheBookStatement/>
     <Footer/>
   </React.StrictMode>,
   document.getElementById("root")
