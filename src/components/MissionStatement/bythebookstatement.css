@@ -6,7 +6,7 @@
     padding: 25px 50px 25px 50px;
     box-shadow: 0 -15px 10px 0px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
-  }
+}
   
 .quick-mission-statement-text {
     display: flex;
@@ -38,12 +38,14 @@
         line-height: 45px;
     }
 }
+
 @media (min-width: 750px) {
     .quick-mission-statement-text{
         font-size: 35px;
         line-height: 52px;
     }
 }
+
 @media (min-width: 1075px) {
     .quick-mission-statement-text{
         font-size: 40px;

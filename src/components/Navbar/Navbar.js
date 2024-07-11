@@ -4,10 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
 function Menubar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="nav-background-color">
+    <Navbar collapseOnSelect expand="lg" className="nav-background">
       <Container>
         <Navbar.Brand href="#home" id="brand-name">By the Book</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

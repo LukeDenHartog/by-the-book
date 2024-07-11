@@ -34,6 +34,7 @@
     border-radius: 1.5rem;
     margin: 50px 10px 15px;
     padding: 7px;
+    backdrop-filter: blur(3px);
 }
 
 .carouselParagraph {
@@ -60,6 +61,7 @@
     background-color: rgba(40, 45, 67, 0.85);
     border-radius: 1.5rem;
     padding: 1.5rem;
+    backdrop-filter: blur(3px);
 }
 
 @media (max-width: 720px) {

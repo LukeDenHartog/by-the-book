@@ -1,10 +1,10 @@
 import './Carousel.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import greenTop from '../../assets/images/HomePagePhotos/carouselPhotos/Greentop.jpg';
-import groupHands from '../../assets/images/HomePagePhotos/carouselPhotos/Grouphands.jpeg'
-import redTop from '../../assets/images/HomePagePhotos/carouselPhotos/Redtop.jpg'
-import blackBackgroundCards from '../../assets/images/HomePagePhotos/carouselPhotos/Black-background-cards.jpeg'
+import greenTopImg from '../../assets/images/HomePagePhotos/carouselPhotos/Greentop.jpg';
+import groupHandsImg from '../../assets/images/HomePagePhotos/carouselPhotos/Grouphands.jpeg'
+import redTopImg from '../../assets/images/HomePagePhotos/carouselPhotos/Redtop.jpg'
+import blackBackgroundCardsImg from '../../assets/images/HomePagePhotos/carouselPhotos/Black-background-cards.jpeg'
 import blackBackgroundImage from '../../assets/images/HomePagePhotos/carouselPhotos/Blackbackground.jpeg'
 
 function HomeCarousel() {
@@ -12,7 +12,7 @@ function HomeCarousel() {
     <Carousel interval={null}>
       <Carousel.Item>
         <img
-          src={redTop}
+          src={redTopImg}
           alt="First slide"
           className="d-block w-100 interfacePic"
         />
@@ -26,7 +26,7 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={greenTop}
+          src={greenTopImg}
           alt="Second slide"
           className="d-block w-100 interfacePic"
         />
@@ -40,7 +40,7 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={blackBackgroundCards}
+          src={blackBackgroundCardsImg}
           alt="Third slide"
           className="d-block w-100 interfacePic"
         />
@@ -54,7 +54,7 @@ function HomeCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={groupHands}
+          src={groupHandsImg}
           alt="Third slide"
           className="d-block w-100 interfacePic"
         />

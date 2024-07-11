@@ -23,13 +23,13 @@ function ImageAndText() {
       <Card className="custom-cards">
         <Card.Img src={jackAceThreeChipsImg} alt="Card image" />
         <Card.ImgOverlay>
-        <button class="button">Learn from Legends</button>
+        <button className="button">Learn from Legends</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
         <Card.Img src={vegasBirdsEyeImg} alt="Card image" />
         <Card.ImgOverlay>
-          <button class="button">1st Vegas experiences</button>
+          <button className="button">1st Vegas experiences</button>
         </Card.ImgOverlay>
       </Card>
       <Card className="custom-cards">
