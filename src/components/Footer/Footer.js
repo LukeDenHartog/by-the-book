@@ -15,8 +15,8 @@ export default function Footer() {
                         <a href="#Map" className="nav-footer-link"><p>Site Map</p></a>
                 </section>
                 <FooterCardImage/>
-                <img src={linkedinIcon} alt="LinkedIn Icon" className="footer-icon" />
-                <img src={githubIcon} alt="GitHub Icon" className="footer-icon" />
+                <a href="https://www.linkedin.com/in/luke-denhartog-113123261/"><img src={linkedinIcon} alt="LinkedIn Icon" className="footer-icon" /></a>
+                <a href="https://github.com/LukeDenHartog"><img src={githubIcon} alt="GitHub Icon" className="footer-icon" /></a>
                 <p> © 2023 Luke A DenHartog. All Rights Reserved.</p>
                 <p>Have a gambling addiction? <a href="#Home">Get help here!</a></p>
                 <p>All trademarks referenced herein are the properties of their respective owners.</p>
