@@ -1,4 +1,5 @@
 import './Carousel.css'
+import './SlideButtons.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import greenTopImg from '../../assets/images/HomePagePhotos/carouselPhotos/Greentop.jpg';
@@ -21,7 +22,7 @@ function HomeCarousel() {
           <div className="caption-background"> 
             <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
-          <Button className="interfaceLearnButton"variant="primary">Learn More</Button>{' '}
+          <Button className="learnMoreButton"variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,7 +36,10 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carouselParagraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
           </div>
-          <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
+          <div class="">
+          <Button id="quiz--button" variant="warning">Mini Quiz</Button>
+          <Button className="learnMoreButton" id=""variant="primary">Learn More</Button>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,7 +53,7 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
           </div>
-          <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
+          <Button className="learnMoreButton" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -63,7 +67,7 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carouselParagraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
-          <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
+          <Button className="learnMoreButton" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,7 +81,7 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
           </div>
-          <Button className="interfaceLearnButton" variant="primary">Learn More</Button>{' '}
+          <Button className="learnMoreButton" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
