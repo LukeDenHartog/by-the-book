@@ -1,16 +1,11 @@
 #title-wrapper {
-    margin-top: 100px;
     padding: 25px;
-    background-color: rgba(169, 169, 169, 0.442);
+    background-color: #282d43d9;
 }
 
 /* #title-wrapper, #title-wrapper * ensures that all text within the #title-wrapper section, including its child elements, will be white. */
 
-#title-wrapper, #title-wrapper * {
-    color: white;
-}
-
-section, section * {
+#title-wrapper, #title-wrapper *, section, section * {
     color: white;
 }
 
@@ -30,4 +25,55 @@ main {
 .img-flexbox-container {
     display: flex;
     justify-content: center;
+}
+
+article {
+    background: #00000096;
+    padding: 1px;
+    margin-bottom: -50px;
+}
+
+.article-section {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(169, 169, 169, 0.442);
+}
+
+ul li {
+    padding: 25px 25px 25px 0;
+}
+
+.mission-statement-wrapper {
+    margin-top: 0;
+}
+
+.holding-hands-container {
+    position: relative;
+    width: 100%;
+}
+  
+.holding-hands-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+  
+#addiction-hold-hands {
+    width: 100%;
+}
+
+@media (min-width: 825px) {
+    .article-section {
+        margin: 150px;
+        padding: 25px;
+        background-color: rgba(169, 169, 169, 0.442);
+    }
+    article {
+        padding: 50px;
+    }
 }
