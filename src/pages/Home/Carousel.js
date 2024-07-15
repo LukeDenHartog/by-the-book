@@ -18,11 +18,11 @@ function HomeCarousel() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption>
-          <h3 className="slideHeader">BlackJack Rules</h3>
+          <h3 className="slide-header">BlackJack Rules</h3>
           <div className="caption-background"> 
-            <p className="carouselParagraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
+            <p className="carousel-paragraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
-          <Button className="learnMoreButton"variant="primary">Learn More</Button>
+          <Button className="learn-more-button"variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,13 +32,13 @@ function HomeCarousel() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption className="carousel-caption">
-        <h3 className="slideHeader">Basic Strategy</h3>
+        <h3 className="slide-header">Basic Strategy</h3>
           <div className="caption-background">
-            <p className="carouselParagraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
+            <p className="carousel-paragraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
           </div>
       
           <Button className="basic-strat-button" id="quiz--button" variant="warning">Mini Quiz</Button>
-          <Button className="learnMoreButton basic-strat-button" id=""variant="primary">Learn More</Button>
+          <Button className="learn-more-button basic-strat-button" id=""variant="primary">Learn More</Button>
 
         </Carousel.Caption>
       </Carousel.Item>
@@ -49,11 +49,11 @@ function HomeCarousel() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption>
-          <h3 className="slideHeader">Card Counting</h3>
+          <h3 className="slide-header">Card Counting</h3>
           <div className="caption-background">
-            <p className="carouselParagraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
+            <p className="carousel-paragraph">Monitoring the distribution of high and low cards to tilt the odds in favor of the player.</p>
           </div>
-          <Button className="learnMoreButton" variant="primary">Learn More</Button>
+          <Button className="learn-more-button" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -63,11 +63,11 @@ function HomeCarousel() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption>
-        <h3 className="slideHeader">Get help with your addiction</h3>
+        <h3 className="slide-header">Get help with your addiction</h3>
           <div className="caption-background">
-            <p className="carouselParagraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
+            <p className="ccarousel-paragraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
-          <Button className="learnMoreButton" variant="primary">Learn More</Button>
+          <Button className="learn-more-button" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -77,11 +77,11 @@ function HomeCarousel() {
           className="d-block w-100 interfacePic"
         />
         <Carousel.Caption>
-          <h3 className="slideHeader">Sports Betting Advice</h3>
+          <h3 className="slide-header">Sports Betting Advice</h3>
           <div className="caption-background">
-            <p className="carouselParagraph">Some helpful advice on navigating the sportsbooks.</p>
+            <p className="carousel-paragraph">Some helpful advice on navigating the sportsbooks.</p>
           </div>
-          <Button className="learnMoreButton" variant="primary">Learn More</Button>
+          <Button className="learn-more-button" variant="primary">Learn More</Button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

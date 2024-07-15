@@ -2,7 +2,7 @@
     margin: 10px;
 }
 
-.learnMoreButton {
+.learn-more-button {
     margin-top: 10px;
     padding: 20px 32px;
     border-radius: 3rem;
@@ -35,7 +35,7 @@
         margin-top: 0px;
         margin-bottom: 50px;
     }
-    .learnMoreButton {
+    .learn-more-button {
         margin-top: 50px;
     }
     #quiz--button {
