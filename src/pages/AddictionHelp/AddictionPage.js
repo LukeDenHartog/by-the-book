@@ -84,15 +84,31 @@ function AddictionPage() {
             <section>
                 <h2>Build a Support Network</h2>
                 <ol>
-                    <li><h3>Family and Friends:</h3><ul><li>Talk to family and friends about your problem and ask for their support.</li></ul></li>
-                    <li><h3>Accountability Partner:</h3><ul><li>Find an accountability partner who can help monitor your progress and offer encouragement.</li></ul></li>
+                    <li><h3>Family and Friends:</h3>
+                        <ul>
+                            <li>Talk to family and friends about your problem and ask for their support.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Accountability Partner:</h3>
+                        <ul>
+                            <li>Find an accountability partner who can help monitor your progress and offer encouragement.</li>
+                        </ul>
+                    </li>
                 </ol>
             </section>
             <section>
                 <h2>Adopt Healthy Lifestyle Changes</h2>
                 <ol>
-                    <li><h3>Alternative Activities:</h3><ul><li>Engage in hobbies and activities that you enjoy and that keep you away from gambling.</li></ul></li>
-                    <li><h3>Stress Management:</h3><ul><li>Practice stress management techniques such as mindfulness, meditation, or yoga.</li></ul></li>
+                    <li><h3>Alternative Activities:</h3>
+                        <ul>
+                            <li>Engage in hobbies and activities that you enjoy and that keep you away from gambling.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Stress Management:</h3>
+                        <ul>
+                            <li>Practice stress management techniques such as mindfulness, meditation, or yoga.</li>
+                        </ul>
+                    </li>
                 </ol>
             </section>
             <Footer />
