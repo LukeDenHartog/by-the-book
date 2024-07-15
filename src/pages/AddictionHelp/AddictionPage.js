@@ -1,7 +1,7 @@
 import "./AddictionPage.css";
 import Navbar from "../../components/Navbar/Navbar.js";
 import Footer from "../../components/Footer/Footer.js";
-// import ByTheBookStatement from "../../components/MissionStatement/BytheBookStatement.js"
+import ByTheBookStatement from "../../components/MissionStatement/BytheBookStatement.js"
 
 function AddictionPage() {
     return (
@@ -141,6 +141,7 @@ function AddictionPage() {
                     </li>
                 </ol>
             </section>
+            <ByTheBookStatement/>
             <Footer />
         </main>
     );
