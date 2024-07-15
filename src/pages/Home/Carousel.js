@@ -65,7 +65,7 @@ function HomeCarousel() {
         <Carousel.Caption>
         <h3 className="slide-header">Get help with your addiction</h3>
           <div className="caption-background">
-            <p className="ccarousel-paragraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
+            <p className="carousel-paragraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
           <Button className="learn-more-button" variant="primary">Learn More</Button>
         </Carousel.Caption>
