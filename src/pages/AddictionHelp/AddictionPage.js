@@ -27,7 +27,7 @@ function AddictionPage() {
                             <li>Cognitive-behavioral therapy (CBT) is often effective for treating gambling addiction.</li>
                         </ul>
                     </li>
-                    <li>Support Groups:
+                    <li><h3>Support Groups:</h3>
                         <ul>
                             <li>Join support groups such as Gamblers Anonymous (GA), which provide peer support and a 12-step program.</li>
                         </ul>
@@ -58,6 +58,41 @@ function AddictionPage() {
                             <li>Read books and guides on overcoming gambling addiction to educate yourself and gain strategies for recovery.</li>
                         </ul>
                     </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Implement Practical Steps</h2>
+                <ol>
+                    <li><h3>Financial Management:</h3>
+                        <ul>
+                            <li>Have someone you trust manage your finances.</li>
+                            <li>Set limits on cash and credit access.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Self-Exclusion Programs:</h3>
+                        <ul>
+                            <li>Sign up for self-exclusion programs that ban you from entering gambling venues or accessing online gambling sites.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Blocking Software:</h3>
+                        <ul>
+                            <li>Install software that blocks access to online gambling sites on your devices.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Build a Support Network</h2>
+                <ol>
+                    <li><h3>Family and Friends:</h3><ul><li>Talk to family and friends about your problem and ask for their support.</li></ul></li>
+                    <li><h3>Accountability Partner:</h3><ul><li>Find an accountability partner who can help monitor your progress and offer encouragement.</li></ul></li>
+                </ol>
+            </section>
+            <section>
+                <h2>Adopt Healthy Lifestyle Changes</h2>
+                <ol>
+                    <li><h3>Alternative Activities:</h3><ul><li>Engage in hobbies and activities that you enjoy and that keep you away from gambling.</li></ul></li>
+                    <li><h3>Stress Management:</h3><ul><li>Practice stress management techniques such as mindfulness, meditation, or yoga.</li></ul></li>
                 </ol>
             </section>
             <Footer />
