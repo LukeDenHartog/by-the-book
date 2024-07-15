@@ -12,6 +12,16 @@
     padding: 15px;
     border: 15px solid #333B4B;
 }
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 0;
+}
 
 .carousel-indicators > button {
     width: 60px !important;
@@ -21,13 +31,6 @@
     padding: 0 25px !important;
     border: 0 !important;
 }
-  
-.carousel-caption {
-    padding-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .slideHeader{
     display: inline-block;
@@ -35,7 +38,6 @@
     font-weight: 800;
     background-color: rgba(40, 45, 67, 0.85);
     border-radius: 1.5rem;
-    margin: 50px 10px 15px;
     padding: 7px;
     backdrop-filter: blur(3px);
 }
@@ -54,7 +56,8 @@
     border-radius: 1.5rem;
     padding: 1.5rem;
     backdrop-filter: blur(3px);
-    margin: 30px 0px;
+    margin: 15px -50px;
+
 }
 
 @media (max-width: 720px) {
@@ -85,7 +88,6 @@
 
 @media (min-width: 882px) {
     .caption-background {
-        margin: 30px 150px;
     }
 }
   
@@ -111,6 +113,6 @@
 
 @media (min-width: 437px) {
     .slideHeader {
-        padding: 20px;
+        padding: 10px 30px;
     }
 }

@@ -31,15 +31,15 @@ function HomeCarousel() {
           alt="Second slide"
           className="d-block w-100 interfacePic"
         />
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-caption">
         <h3 className="slideHeader">Basic Strategy</h3>
           <div className="caption-background">
             <p className="carouselParagraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
           </div>
-          <div class="">
-          <Button id="quiz--button" variant="warning">Mini Quiz</Button>
-          <Button className="learnMoreButton" id=""variant="primary">Learn More</Button>
-          </div>
+      
+          <Button className="basic-strat-button" id="quiz--button" variant="warning">Mini Quiz</Button>
+          <Button className="learnMoreButton basic-strat-button" id=""variant="primary">Learn More</Button>
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
