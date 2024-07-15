@@ -111,6 +111,36 @@ function AddictionPage() {
                     </li>
                 </ol>
             </section>
+            <section>
+                <h2>Stay Committed</h2>
+                <ol>
+                    <li><h3>Regular Counseling:</h3>
+                        <ul>
+                            <li>Attend regular counseling sessions and support group meetings.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Continuous Learning:</h3>
+                        <ul>
+                            <li>Stay informed about gambling addiction and effective recovery strategies.</li>
+                        </ul>
+                    </li>
+                    <li><h3>Goal Setting:</h3>
+                        <ul>
+                            <li>Set realistic goals for your recovery and celebrate your achievements.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Emergency Measures</h2>
+                <ol>
+                    <li><h3>Crisis Plan:</h3>
+                        <ul>
+                            <li>Develop a crisis plan for moments when the urge to gamble feels overwhelming. This might include calling a trusted friend, attending a support group meeting, or engaging in a distracting activity.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
             <Footer />
         </main>
     );
