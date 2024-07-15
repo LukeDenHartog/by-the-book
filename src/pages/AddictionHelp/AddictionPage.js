@@ -2,7 +2,7 @@ import "./AddictionPage.css";
 import Navbar from "../../components/Navbar/Navbar.js";
 import Footer from "../../components/Footer/Footer.js";
 import ByTheBookStatement from "../../components/MissionStatement/BytheBookStatement.js"
-
+import HoldingHandsModule from "./holding-hands.js";
 function AddictionPage() {
     return (
         <main>
@@ -11,6 +11,7 @@ function AddictionPage() {
                 <h1 id="main-title" className="text-css">Get help with your addiction</h1>
                 <p id="title-paragraph" className="text-css">If you or someone you know is concerned about gambling habits or shows signs of gambling addiction, seeking professional help and support is crucial. Many resources and organizations provide assistance for individuals struggling with gambling-related issues. Getting help with gambling addiction involves recognizing the problem, seeking professional support, and accessing resources designed to assist in recovery. Here are steps to take:</p>
             </section>
+            <HoldingHandsModule />
             <section>
                 <h2>Recognize the Problem</h2>
                 <ol>

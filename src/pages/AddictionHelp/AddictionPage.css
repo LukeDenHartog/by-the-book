@@ -19,4 +19,15 @@ ul {
     color: white;
 }
 
+main {
+    background-color: rgb(1 1 1 / 43%);
+}
 
+#addiction-hold-hands{
+    max-height: 750px;
+}
+
+.img-flexbox-container {
+    display: flex;
+    justify-content: center;
+}
