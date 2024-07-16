@@ -1,7 +1,7 @@
 #title-wrapper {
-    padding: 25px;
+    padding: 20px;
     background-color: #282d43d9;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
 }
 
 /* #title-wrapper, #title-wrapper * ensures that all text within the #title-wrapper section, including its child elements, will be white. */
@@ -30,7 +30,7 @@ main {
 }
 
 #addiction-hold-hands{
-    max-height: 750px;
+    height: 650px;
 }
 
 .img-flexbox-container {
@@ -78,8 +78,23 @@ ul li {
 #addiction-hold-hands {
     width: 100%;
 }
-@media (min-width: 700px) {
 
+#title-paragraph {
+    font-weight: 525;
+    line-height: 1.6;
+}
+
+#main-title {
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+@media (min-width: 500px) {
+    #title-paragraph {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.8;
+    }
 }
 @media (min-width: 825px) {
     ol {
@@ -102,5 +117,9 @@ ul li {
     }
     ol {
         padding-left: 4rem;
+    }
+    #title-paragraph {
+        font-size: 27px;
+        line-height: 1.9;
     }
 }
