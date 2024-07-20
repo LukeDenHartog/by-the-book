@@ -2,8 +2,10 @@
     filter: invert(1) grayscale(100%) brightness(200%);
   }
   
-.offcanvas {
+.offcanvas.offcanvas-end {
     background-color: #282d43d9;
+    width: 90%;
+    transition: width 0.4s ease;
 }
 
 .container, .container-md, .container-sm {
@@ -36,9 +38,8 @@
     align-items: center;
 }
 
-#brand-name {
+.brand-name-color {
     color: #3388FF;
-    font-size: 1.5rem;
 }
 
 .navbar-toggler {
@@ -55,9 +56,15 @@
     color: white;
 }
 
-@media (max-width: 960px) {
-    .dropdown-menu {
-        text-align: center;
+@media (min-width: 576px) {
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
+}
+
+@media (min-width: 767px) {
+    .offcanvas.offcanvas-end {
+        width: 60%;
     }
 }
 
@@ -75,6 +82,8 @@
     }
 }
 
-.navbar-nav .nav-link.show {
-    color: skyblue;
+@media (max-width: 960px) {
+    .dropdown-menu {
+        text-align: center;
+    }
 }

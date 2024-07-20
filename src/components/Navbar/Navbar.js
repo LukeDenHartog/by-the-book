@@ -6,7 +6,7 @@ function NavbarModule() {
   return (
     <Navbar expand="lg" className="mb-3 nav-background">
       <Container fluid>
-        <Navbar.Brand href="#" id="brand-name">By the Book</Navbar.Brand>
+        <Navbar.Brand href="#" className="brand-name-color"><h1>By the Book</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
         <Navbar.Offcanvas
           id="offcanvasNavbar-expand-lg"
@@ -14,7 +14,7 @@ function NavbarModule() {
           placement="end"
         >
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">Offcanvas</Offcanvas.Title>
+            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg"><h2 className="brand-name-color">By the Book</h2></Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="me-auto">
