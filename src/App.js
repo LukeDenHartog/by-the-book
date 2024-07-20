@@ -4,8 +4,9 @@ import AddictionPage from "./pages/AddictionHelp/AddictionPage.js"
 
 function App() {
     return (
-       // <LandingPage />
-       <AddictionPage />
+       <LandingPage />
+      //  <AddictionPage />
+       
     );
   }
   
