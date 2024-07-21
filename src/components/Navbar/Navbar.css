@@ -1,12 +1,15 @@
-div.navbar-nav:hover {
-    background-color: #354659b0;
-    border-radius: 25px;
+#collapsible-nav-dropdown {
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: green;
 }
 
 .navbar-nav .nav-link::after {
     display: none;
   }
-  
+
 .btn-close {
     filter: invert(1) grayscale(100%) brightness(200%);
   }
@@ -38,12 +41,6 @@ div.navbar-nav:hover {
     z-index: 3;
     position: fixed;
     backdrop-filter: blur(5px);
-}
-
-#collapsible-nav-dropdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .brand-name-color {
@@ -81,17 +78,23 @@ div.navbar-nav:hover {
         margin: 15px 11px 0 11px;
         border-radius: 15px;
     }
-    .nav-background-color {
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 3;
-        position: fixed;
-    }
 }
 
 @media (max-width: 960px) {
     .dropdown-menu {
         text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    h4 { 
+        margin: 25px 0px;
+        padding: 20px;
+    }
+    .off-canvas-hover-feature:hover {
+        background-color: #ffffff0d;
+        border-radius: 20px;
+        width: 100%;
+        cursor: pointer;
     }
 }
