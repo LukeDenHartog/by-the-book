@@ -27,8 +27,8 @@ function NavbarModule() {
   return (
     <Navbar expand="lg" className="mb-3 nav-background">
       <Container fluid>
-        <Navbar.Brand href="#" className="brand-name-color">
-          <h2>By the Book</h2>
+        <Navbar.Brand href="#">
+          <h2 className="brand-name-color">By the Book</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" onClick={handleShowOffCanvas} />
         <Navbar.Offcanvas
@@ -46,7 +46,7 @@ function NavbarModule() {
           <Offcanvas.Body>
             <Nav className="me-auto">
               <Nav className="off-canvas-hover-feature">
-                <NavDropdown title={<h4>Black Jack (21)</h4>} id="collapsible-nav-dropdown">
+                <NavDropdown title={<h5>Black Jack (21)</h5>} id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Basic Rules</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Basic Strategy</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -54,7 +54,7 @@ function NavbarModule() {
                 </NavDropdown>
               </Nav>
               <Nav className="off-canvas-hover-feature">
-                <NavDropdown title={<h4>Gambling Advice</h4>} id="collapsible-nav-dropdown">
+                <NavDropdown title={<h5>Gambling Advice</h5>} id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Betting</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Sports</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -63,7 +63,7 @@ function NavbarModule() {
               </Nav>
             </Nav>
             <Nav className="off-canvas-hover-feature">
-              <NavDropdown title={<h4>About us</h4>} id="collapsible-nav-dropdown">
+              <NavDropdown title={<h5>About us</h5>} id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">About By the Book</NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -71,7 +71,7 @@ function NavbarModule() {
               </NavDropdown>
             </Nav>
             <Nav className="off-canvas-hover-feature">
-            <NavDropdown title={<h4>Account</h4>} id="collapsible-nav-dropdown">
+            <NavDropdown title={<h5>Account</h5>} id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Log in</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Sign out</NavDropdown.Item>
                 <NavDropdown.Divider />

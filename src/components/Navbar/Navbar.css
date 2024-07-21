@@ -1,18 +1,28 @@
+h5 {
+    font-weight: 800;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 #collapsible-nav-dropdown {
     display: flex;
     justify-content: center;
 }
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: green;
+    text-decoration: underline;
 }
 
 .navbar-nav .nav-link::after {
     display: none;
-  }
+}
 
 .btn-close {
     filter: invert(1) grayscale(100%) brightness(200%);
-  }
+}
   
 .offcanvas.offcanvas-end {
     background-color: #282d43;
@@ -87,8 +97,8 @@
 }
 
 @media (max-width: 991px) {
-    h4 { 
-        margin: 25px 0px;
+    h5 { 
+        margin: 15px 0px;
         padding: 20px;
     }
     .off-canvas-hover-feature:hover {
