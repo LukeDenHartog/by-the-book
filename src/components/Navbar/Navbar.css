@@ -108,3 +108,18 @@ h5 {
         cursor: pointer;
     }
 }
+
+@media (min-width: 992px) {
+    h5 {
+        padding: 10px 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    #last-nav-element {
+        margin: 0px 40px 0 0;
+    }
+    #collapsible-nav-dropdown:hover {
+        background-color: #ffffff0d;
+        border-radius: 15px;
+    }
+}

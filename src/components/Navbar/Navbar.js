@@ -70,7 +70,7 @@ function NavbarModule() {
                 <NavDropdown.Item href="#action/3.4">My GitHub Profile</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Nav className="off-canvas-hover-feature">
+            <Nav className="off-canvas-hover-feature" id="last-nav-element">
             <NavDropdown title={<h5>Account</h5>} id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Log in</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Sign out</NavDropdown.Item>
