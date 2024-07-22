@@ -1,3 +1,19 @@
+.down-arrow {
+    display: block;
+    margin: 0 auto;
+}
+  
+  .off-canvas-hover-feature .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-menu{
+    background-color: #ffffff0d;
+        border: none;
+}
+
 h5 {
     font-weight: 800;
 }
@@ -12,7 +28,6 @@ h5 {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: green;
     text-decoration: underline;
 }
 
@@ -98,12 +113,11 @@ h5 {
 
 @media (max-width: 991px) {
     h5 { 
-        margin: 15px 0px;
-        padding: 20px;
+        margin: 30px 0px 0px 0px;
+        padding: 40px 0 5px 0;
     }
-    .off-canvas-hover-feature:hover {
+    .off-canvas-hover-feature {
         background-color: #ffffff0d;
-        border-radius: 20px;
         width: 100%;
         cursor: pointer;
     }
@@ -121,5 +135,8 @@ h5 {
     #collapsible-nav-dropdown:hover {
         background-color: #ffffff0d;
         border-radius: 15px;
+    }
+    .down-arrow{
+        display: none;
     }
 }

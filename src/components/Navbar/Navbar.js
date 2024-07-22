@@ -1,10 +1,10 @@
 import "./Navbar.css";
 import React, { useState, useEffect, useCallback } from 'react';
 import { Navbar, Container, Offcanvas, Nav, NavDropdown } from 'react-bootstrap';
+import downArrowImg from './icons8-chevron-24.png';
 
 function NavbarModule() {
   const [showOffCanvas, setShowOffCanvas] = useState(false);
-
   // If showOffCanvas changes, the handleResize function is updated.
   const handleResize = useCallback(() => {
     if (window.innerWidth > 993 && showOffCanvas) {
@@ -46,7 +46,7 @@ function NavbarModule() {
           <Offcanvas.Body>
             <Nav className="me-auto">
               <Nav className="off-canvas-hover-feature">
-                <NavDropdown title={<h5>Black Jack (21)</h5>} id="collapsible-nav-dropdown">
+                <NavDropdown title={<><h5>Black Jack (21)</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Basic Rules</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Basic Strategy</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -54,7 +54,7 @@ function NavbarModule() {
                 </NavDropdown>
               </Nav>
               <Nav className="off-canvas-hover-feature">
-                <NavDropdown title={<h5>Gambling Advice</h5>} id="collapsible-nav-dropdown">
+                <NavDropdown title={<><h5>Gambling Advice</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Betting</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">Sports</NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -63,15 +63,15 @@ function NavbarModule() {
               </Nav>
             </Nav>
             <Nav className="off-canvas-hover-feature">
-              <NavDropdown title={<h5>About us</h5>} id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
+              <NavDropdown title={<><h5>About us</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">About By the Book</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">My GitHub Profile</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav className="off-canvas-hover-feature" id="last-nav-element">
-            <NavDropdown title={<h5>Account</h5>} id="collapsible-nav-dropdown">
+              <NavDropdown title={<><h5>Account</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Log in</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Sign out</NavDropdown.Item>
                 <NavDropdown.Divider />
