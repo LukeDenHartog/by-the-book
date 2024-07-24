@@ -1,12 +1,15 @@
 // Custom Pages/Components
-import LandingPage from "../src/pages/Home/LandingPage"
+import LandingPage from "./pages/Home/LandingPage"
 import AddictionPage from "./pages/AddictionHelp/AddictionPage.js"
+import QuizPage from "./pages/BasicStrategyQuiz/QuizStartPage.js"
+import BettingAdvicePage from "./pages/SportsBettingAdvice/BettingAdvice.js"
 
 function App() {
     return (
-       <LandingPage />
-      //  <AddictionPage />
-       
+        //<LandingPage />
+        //<AddictionPage />
+        //<QuizPage/>
+        <BettingAdvicePage/>
     );
   }
   
