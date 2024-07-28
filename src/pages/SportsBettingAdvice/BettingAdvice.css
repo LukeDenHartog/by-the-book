@@ -1,0 +1,98 @@
+#kobe-image, #tom-image {
+    border-radius: 5%;
+    box-shadow: inset 0px 0px 8px #0d6efd, 0 0 15px #0d6efd; 
+}
+
+article p {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#look-around-paragraph {
+    margin-left: 0px;
+}
+
+#main-content-container {
+    margin: 150px 0px;
+}
+
+.middle-content-container {
+    margin-left: 100px;
+}
+
+.article-text {
+    color: white;
+    margin: 25px 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+article h4 {
+    text-decoration: underline;
+}
+
+article {
+    background: none;
+}
+
+.sports-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    #upper-content-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    #middle-content-container {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    #kobe-image {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    #main-content-container{
+        margin: 150px 75px;
+    }
+    article p {
+        font-size: 20px;
+    }
+    #middle-content-container {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    #main-content-container{
+        margin: 150px 100px;
+    }
+    article p {
+        font-size: 25px;
+    }
+    #middle-content-container {
+        margin-left: 75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #main-content-container{
+        margin: 150px 175px;
+    }
+    article p {
+        font-size: 30px;
+    }
+    #kobe-image {
+        width: 250px;
+        height: 400px;
+    }
+    
+}
