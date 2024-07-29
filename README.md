@@ -31,4 +31,6 @@ My GitHub username is: Afrozez <https://github.com/Afrozez/>
 
 ## Sources
 
+Shohei Otani's image was sourced from an Author named: Jeffrey Hayes <https://creativecommons.org/licenses/by/2.0/>
+
 Images sourced via public domain are not subject to any restrictions.
