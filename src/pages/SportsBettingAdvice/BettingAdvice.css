@@ -6,9 +6,22 @@ table {
     font-size: calc(10px + 2vw);
 }
 
-#kobe-image, #tom-image {
+#kobe-image {
     border-radius: 5%;
+    box-shadow: 1px 1px 15px 0px rgb(255 215 0 / 80%), 0 0px 7px 0 rgba(255, 215, 0, 0.3);
+}
+
+#tom-image {
     box-shadow: inset 0px 0px 8px #0d6efd, 0 0 15px #0d6efd; 
+}
+
+#ohtani-image {
+    box-shadow: 0px 0px 10px 0px rgb(255 0 0 / 80%), 0 0px 20px 0 rgb(255 0 0 / 30%);
+}
+
+#ohtani-flexbox-container {
+    display: flex;
+    justify-content: center;
 }
 
 article p {
@@ -21,10 +34,10 @@ article p {
 }
 
 #main-content-container {
-    margin: 150px 0px;
+    margin: 150px 0px 0px 0px;
 }
 
-.middle-content-container {
+.middle-section-container {
     margin-left: 100px;
 }
 
@@ -53,12 +66,12 @@ article {
 }
 
 @media (min-width: 576px) {
-    #upper-content-container {
+    #upper-section-container {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
-    #middle-content-container {
+    #middle-section-container {
         display: flex;
         align-items: center;
         margin-left: 15px;
@@ -78,7 +91,7 @@ article {
     article p {
         font-size: 20px;
     }
-    #middle-content-container {
+    #middle-section-container {
         margin-left: 50px;
     }
 }
@@ -90,7 +103,7 @@ article {
     article p {
         font-size: 25px;
     }
-    #middle-content-container {
+    #middle-section-container {
         margin-left: 75px;
     }
 }
