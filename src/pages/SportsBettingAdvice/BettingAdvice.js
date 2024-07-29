@@ -1,8 +1,10 @@
 import "./BettingAdvice.css";
+
 import Navbar from "../../components/Navbar/Navbar.js";
 import Footer from "../../components/Footer/Footer.js";
 import KobeImg from "../../assets/images/AdvicePagePhotos/Kobe-Bryant.png";
 import TomImg from "../../assets/images/AdvicePagePhotos/Tom-Brady-Image.jpeg";
+import ExampleTable from "./ExampleTable.js";
 
 function AdvicePageModule() {
     return (
@@ -40,7 +42,7 @@ function AdvicePageModule() {
                     <div className="sports-img">
                         <img id="tom-image" src={TomImg} alt="Tom Brady" width="300" height="400" />
                     </div>
-                    <article className="article-text">
+                    <article className="article-text" id="look-around-id">
                         <h4>Look Around:</h4>
                         <p id="look-around-paragraph">Odds can differ between sportsbooks. After deciding on your bet, it's beneficial to choose a trustworthy sportsbook that offers the best odds. Numerous websites compare and review betting apps, making it easy to find the best option for you.</p>
                     </article>
@@ -65,7 +67,7 @@ function AdvicePageModule() {
                     <h4>American Odds:</h4>
                     <p>When you see a minus sign (-) in front of the odds, it indicates the amount you need to bet to win $100. Conversely, a plus sign (+) shows the amount you’ll win for every $100 bet. For example, if you bet on the Oilers with a money line of -217, you would need to wager $217 to win $100, totaling $317 (your $217 bet plus $100 in winnings). On the other hand, if you bet $100 on the Kings with a money line of +183 and they win, you would earn $183, receiving a total of $283 (your $100 bet plus $183 in winnings).</p>
                 </article>
-
+                <ExampleTable />
                 <article className="article-text">
                     <h4>Decimal Odds:</h4>
                     <p>Here’s how the decimal odds would apply to the matchup between the Lakers and the Warriors. To calculate your potential payout using decimal odds, multiply your stake by the odds. This total includes your initial bet. For example, if you bet $150 on the Lakers with decimal odds of 2.35, your total payout would be $150 * 2.35 = $352.50. Similarly, if you place an $80 bet on the Warriors with decimal odds of 4.25, you would receive $80 * 4.25 = $340. Most sportsbooks offer the option to switch between American and decimal odds, with many finding decimal odds more straightforward.</p>
