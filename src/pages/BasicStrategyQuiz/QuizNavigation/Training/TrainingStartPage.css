@@ -1,0 +1,36 @@
+main {
+    /* Removing reacts default main background color styling */
+    background-color: transparent !important;
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    margin: 100px 0;
+}
+
+@media (max-width: 992px) {
+    .card {
+        max-width: 1000px;
+    }
+    .flexbox-container {
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 993px) {
+    .row{
+        justify-content: space-around;
+    }
+}

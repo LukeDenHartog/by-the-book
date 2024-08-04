@@ -7,7 +7,7 @@ import bjsvgImg from "../../assets/images/footerImages/Blackjack.Svg.png";
 function FooterCardImage() {
   return (
     <Container id="footer-img-container">
-        <Col xs={6} md={4} style={{ display: 'inline' }}>
+        <Col>
           <Image src={bjsvgImg} rounded id="footer-img-styling"/>
         </Col>
     </Container>
