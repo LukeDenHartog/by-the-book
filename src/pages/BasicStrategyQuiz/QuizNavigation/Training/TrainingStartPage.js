@@ -7,7 +7,9 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './TrainingStartPage.css';
 import NavbarModule from '../../../../components/Navbar/Navbar';
-import Footer from '../../../../components/Footer/Footer.js'
+import Footer from '../../../../components/Footer/Footer.js';
+import OptionsHomeButton from '../../../../components/Buttons/OptionsHomeButton.js';
+import BasicStratHomeButton from '../../../../components/Buttons/BasicStratHomeButton.js';
 
 function HeaderAndFooterExample() {
   return (
@@ -54,8 +56,12 @@ function HeaderAndFooterExample() {
                     <Card.Footer className="">2 days ago</Card.Footer>
                 </Card>
                 </Col>
-            </Row>    
+            </Row>
         </Container>
+        <div className="bottom-buttons-flexbox"> 
+            <OptionsHomeButton />
+            <BasicStratHomeButton /> 
+         </div>
         <Footer />
     </main>
   );
