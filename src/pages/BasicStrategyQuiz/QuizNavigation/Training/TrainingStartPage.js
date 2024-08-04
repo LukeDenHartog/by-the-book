@@ -61,7 +61,7 @@ function HeaderAndFooterExample() {
         <div className="bottom-buttons-flexbox"> 
             <OptionsHomeButton />
             <BasicStratHomeButton /> 
-         </div>
+        </div>
         <Footer />
     </main>
   );
