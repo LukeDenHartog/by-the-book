@@ -10,7 +10,7 @@
     color: white;
 }
 
-section h2 {
+.addiction-header-02 {
     text-align: center;
     margin: 25px 0px;
     text-decoration: underline;
@@ -20,12 +20,12 @@ section h2 {
     font-weight: 800;
 }
 
-ul {
+#addiction-page-article ul {
     list-style-type: disc;
     color: white;
 }
 
-main {
+#addiction-page-main-element {
     background-color: rgb(1 1 1 / 43%);
 }
 
@@ -38,7 +38,7 @@ main {
     justify-content: center;
 }
 
-article {
+#addiction-page-article {
     background: #00000096;
     padding: 1px;
     margin-bottom: -50px;
@@ -51,7 +51,7 @@ article {
     border-radius: 25px;
 }
 
-ul li {
+#addiction-page-article ul li {
     padding: 25px 25px 25px 0;
 }
 
@@ -97,8 +97,8 @@ ul li {
     }
 }
 @media (min-width: 825px) {
-    ol {
-        padding-left: 2.5rem;
+    #addiction-page-article ol {
+        padding-left: 40px;
     }
     .article-section {
         margin: 75px 150px;
@@ -106,17 +106,17 @@ ul li {
         background-color: rgba(169, 169, 169, 0.442);
         border-radius: 25px;
     }
-    article {
+    #addiction-page-article {
         padding: 50px;
     }
 }
 
 @media (min-width: 1125px) {
-    section h2 {
+    .addiction-header-02 {
         margin: 25px 0px;
     }
-    ol {
-        padding-left: 4rem;
+    #addiction-page-article ol {
+        padding-left: 65px;
     }
     #title-paragraph {
         font-size: 27px;
