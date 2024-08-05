@@ -1,4 +1,4 @@
-main {
+.training-main-container {
     /* Removing reacts default main background color styling */
     background-color: transparent !important;
     padding-top: 60px;
@@ -17,18 +17,27 @@ main {
     display: flex;
 }
 
-.card-body {
+.training-card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.container{
+.training-options-container {
     margin-top: 30px;
 }
 
+.training-cards {
+    box-shadow: inset 0px 0px 8px #0d6efd, 0 0 15px #0d6efd; 
+}
+
+.training-cards:hover {
+    box-shadow: inset 0px 0px 24px #0d6efd, 0 0 45px #0d6efd;
+    transition: box-shadow 0.4s ease;
+}
+
 @media (max-width: 992px) {
-    .card {
+    .training-cards {
         max-width: 1000px;
         margin: 50px;
     }
@@ -38,10 +47,10 @@ main {
 }
 
 @media (min-width: 993px) {
-    .row {
+    .row-container {
         justify-content: space-evenly;
     }
-    .container {
+    .training-options-container {
         margin-top: 150px;
     }
 }

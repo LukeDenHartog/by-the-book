@@ -11,16 +11,16 @@ import Footer from '../../../../components/Footer/Footer.js';
 import OptionsHomeButton from '../../../../components/Buttons/OptionsHomeButton.js';
 import BasicStratHomeButton from '../../../../components/Buttons/BasicStratHomeButton.js';
 
-function HeaderAndFooterExample() {
+function TrainingOptionsModule() {
   return (
-    <main>
+    <main className="training-main-container">
         <NavbarModule />
-        <Container>
-            <Row>
+        <Container className="training-options-container">
+            <Row className="row-container">
                 <Col className="flexbox-container" lg={3} md={12} sm={12} >
-                <Card className="text-center bg-dark text-white">
+                <Card className="text-center bg-dark text-white training-cards">
                     <Card.Header>Training Module 1</Card.Header>
-                    <Card.Body className="card-body">
+                    <Card.Body className="training-card-body">
                     <Card.Title>Soft Totals</Card.Title>
                     <Card.Text>
                         Soft totals involve a hand that includes an Ace counted as 11, offering flexibility as the Ace can be valued as 1 if needed to avoid busting.
@@ -31,9 +31,9 @@ function HeaderAndFooterExample() {
                 </Card>
                 </Col>
                 <Col className="flexbox-container" lg={3} md={12} sm={12} >
-                <Card className="text-center bg-dark text-white">
+                <Card className="text-center bg-dark text-white training-cards">
                     <Card.Header>Training Module 2</Card.Header>
-                    <Card.Body className="card-body">
+                    <Card.Body className="training-card-body">
                     <Card.Title>Hard Totals</Card.Title>
                     <Card.Text>
                         Hard totals refer to the sum of a player's cards without an Ace being counted as 11, meaning the hand has a fixed value that can't be adjusted.
@@ -44,9 +44,9 @@ function HeaderAndFooterExample() {
                 </Card>
                 </Col>
                 <Col className="flexbox-container" lg={3} md={12} sm={12}>
-                <Card className="text-center bg-dark text-white">
+                <Card className="text-center bg-dark text-white training-cards">
                     <Card.Header>Training Module 3</Card.Header>
-                    <Card.Body className="card-body">
+                    <Card.Body className="training-card-body">
                     <Card.Title>Splitting Pairs</Card.Title>
                     <Card.Text>
                         Splitting pairs allows a player to separate two cards of the same value into two hands, each with its own bet, to potentially increase their chances of winning.
@@ -67,4 +67,4 @@ function HeaderAndFooterExample() {
   );
 }
 
-export default HeaderAndFooterExample;
+export default TrainingOptionsModule;
