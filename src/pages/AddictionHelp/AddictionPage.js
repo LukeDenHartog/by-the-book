@@ -1,8 +1,8 @@
 import "./AddictionPage.css";
-import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.js";
-import ByTheBookStatement from "../../components/MissionStatement/BytheBookStatement.js";
-import HoldingHandsModule from "./holding-hands.js";
+import Navbar from '../../components/Navbar/Navbar.js';
+import Footer from '../../components/Footer/Footer.js';
+import ByTheBookStatement from '../../components/MissionStatement/BytheBookStatement.js';
+import HoldingHandsModule from './holding-hands.js';
 
 
 function AddictionPage() {

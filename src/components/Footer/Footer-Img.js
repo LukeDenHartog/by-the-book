@@ -2,7 +2,7 @@ import './Footer.css';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import bjsvgImg from "../../assets/images/footerImages/Blackjack.Svg.png";
+import bjsvgImg from '../../assets/images/footerImages/Blackjack.Svg.png';
 
 function FooterCardImage() {
   return (
