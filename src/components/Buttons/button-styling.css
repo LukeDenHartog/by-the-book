@@ -1,0 +1,19 @@
+.growing-button {
+    font-weight: 800;
+    height: 50px;
+}
+
+@media (min-width: 576px) {
+    .growing-button {
+        height: 65px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .growing-button {
+        height: 70px;
+        width: 230px;
+        font-size: 20px;
+    }
+}

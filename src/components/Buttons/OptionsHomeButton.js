@@ -20,6 +20,7 @@ function OptionsHomeButton() {
 
   return (
     <Button
+      className="growing-button"
       variant="warning"
       disabled={isLoading}
       onClick={!isLoading ? handleClick : null}

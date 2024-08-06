@@ -8,7 +8,7 @@ import OhtaniFluidImg from "./ShoheiPhoto.js";
 
 function AdvicePageModule() {
     return (
-        <main>
+        <main id="main-element">
             <Navbar />
             <div id="main-content-container">
                 <h2>Betting Advice</h2>
