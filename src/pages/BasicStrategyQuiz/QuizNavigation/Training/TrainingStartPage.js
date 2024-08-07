@@ -27,7 +27,6 @@ function TrainingOptionsModule() {
                     </Card.Text>
                     <Button variant="primary">Play Now</Button>
                     </Card.Body>
-                    <Card.Footer className="text-muted">2 days ago</Card.Footer>
                 </Card>
                 </Col>
                 <Col className="flexbox-container" lg={3} md={12} sm={12} >
@@ -40,7 +39,6 @@ function TrainingOptionsModule() {
                     </Card.Text>
                     <Button variant="primary">Play Now</Button>
                     </Card.Body>
-                    <Card.Footer className="text-muted">2 days ago</Card.Footer>
                 </Card>
                 </Col>
                 <Col className="flexbox-container" lg={3} md={12} sm={12}>
@@ -53,7 +51,6 @@ function TrainingOptionsModule() {
                     </Card.Text>
                     <Button variant="primary">Play Now</Button>
                     </Card.Body>
-                    <Card.Footer className="">2 days ago</Card.Footer>
                 </Card>
                 </Col>
             </Row>

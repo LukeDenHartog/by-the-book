@@ -1,14 +1,14 @@
-import "./BettingAdvice.css";
-import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.js";
-import KobeImg from "../../assets/images/AdvicePagePhotos/Kobe-Bryant.png";
-import TomImg from "../../assets/images/AdvicePagePhotos/Tom-Brady-Image.jpeg";
-import ExampleTable from "./ExampleTable.js";
-import OhtaniFluidImg from "./ShoheiPhoto.js";
+import './BettingAdvice.css';
+import Navbar from '../../components/Navbar/Navbar.js';
+import Footer from '../../components/Footer/Footer.js';
+import KobeImg from '../../assets/images/AdvicePagePhotos/Kobe-Bryant.png';
+import TomImg from '../../assets/images/AdvicePagePhotos/Tom-Brady-Image.jpeg';
+import ExampleTable from './ExampleTable.js';
+import OhtaniFluidImg from './ShoheiPhoto.js';
 
 function AdvicePageModule() {
     return (
-        <main>
+        <main id="main-element">
             <Navbar />
             <div id="main-content-container">
                 <h2>Betting Advice</h2>

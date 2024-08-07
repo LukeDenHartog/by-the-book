@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import './button-styling.css';
 
 function BasicStratHomeButton() {
   const [isLoading, setLoading] = useState(false);
@@ -20,9 +21,10 @@ function BasicStratHomeButton() {
 
   return (
     <Button
-      variant="warning"
-      disabled={isLoading}
-      onClick={!isLoading ? handleClick : null}
+        className="growing-button"
+        variant="warning"
+        disabled={isLoading}
+        onClick={!isLoading ? handleClick : null}
     >
       {isLoading ? 'Loading…' : 'Study Basic Strategy'}
     </Button>

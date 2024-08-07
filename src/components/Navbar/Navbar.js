@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import './Navbar.css';
 import React, { useState, useEffect, useCallback } from 'react';
 import { Navbar, Container, Offcanvas, Nav, NavDropdown } from 'react-bootstrap';
 import downArrowImg from './down-arrow-image.png';
