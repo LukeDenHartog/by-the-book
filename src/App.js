@@ -5,6 +5,7 @@ import OptionsMenuPage from './pages/BasicStrategyQuiz/QuizNavigation/OptionsMen
 import BettingAdvicePage from './pages/SportsBettingAdvice/BettingAdvice.js';
 import TrainingMenuPage from './pages/BasicStrategyQuiz/QuizNavigation/Training/TrainingStartPage.js';
 import BasicRules from './pages/BlackjackRules/RulesPage.js';
+import SoftTotalsTraining from './pages/TrainingSoftTotals/TrainingSoftTotals.js';
 
 function App() {
     return (
@@ -13,7 +14,8 @@ function App() {
         //<BettingAdvicePage/>
         //<OptionsMenuPage />
         //<TrainingMenuPage />
-        <BasicRules />
+        //<BasicRules />
+        <SoftTotalsTraining />
     );
   }
   
