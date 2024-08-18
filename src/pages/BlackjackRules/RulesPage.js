@@ -1,12 +1,9 @@
 import './RulesPage.css';
 import Navbar from '../../components/Navbar/Navbar.js';
 import Footer from '../../components/Footer/Footer.js';
-import ByTheBookStatement from '../../components/MissionStatement/BytheBookStatement.js';
 import Card from 'react-bootstrap/Card';
 import BasicStratButton from '../../components/Buttons/BasicStratHomeButton.js';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+
 
 function RulesPageModule() {
     return (
