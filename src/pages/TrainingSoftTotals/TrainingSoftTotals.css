@@ -1,6 +1,47 @@
+.display-none {
+    display: none;
+}
+.soft-training-button-ele {
+    width: 100px;
+}
+
 .trainer-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+    min-width: 325px;
+}
+
+.training-img-overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.soft-training-card-body {
+    flex: none;
+}
+
+#soft-training-background{
+    min-height: 465px;
+    max-height: 775px;
+}
+
+.soft-training-card-body button {
+    margin: 25px;
+}
+
+.soft-button-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#soft-training-row {
+    margin-left: 0;
+    margin-right: 0;
 }

@@ -5,10 +5,7 @@ import SoftTwentyArray from './SoftTwentyArray';
 
 const FullSoftTrainingArray = SoftThirteenArray.concat(SoftTwentyArray, SoftForteenArray, SoftFifteenArray);
 
+
 console.log(FullSoftTrainingArray);
 
-const FullSoftTraining = () => {
-
-}
-
-export default FullSoftTraining;
+export default FullSoftTrainingArray;
