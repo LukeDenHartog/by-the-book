@@ -6,6 +6,5 @@ import SoftTwentyArray from './SoftTwentyArray';
 const FullSoftTrainingArray = SoftThirteenArray.concat(SoftTwentyArray, SoftForteenArray, SoftFifteenArray);
 
 
-console.log(FullSoftTrainingArray);
 
 export default FullSoftTrainingArray;

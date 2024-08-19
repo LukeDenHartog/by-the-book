@@ -13,17 +13,17 @@ const SoftFifteenArray = [
     {
         dealerHand: 4,
         playerHand: ['A', 4],
-        answer: "DoH",
+        answer: "doh",
     },
     {
         dealerHand: 5,
         playerHand: ['A', 4],
-        answer: "DoH",
+        answer: "doh",
     },
     {
         dealerHand: 6,
         playerHand: ['A', 4],
-        answer: "DoH",
+        answer: "doh",
     },
     {
         dealerHand: 7,

@@ -18,12 +18,12 @@ const SoftForteenArray = [
     {
         dealerHand: 5,
         playerHand: ['A', 3],
-        answer: "DoH",
+        answer: "doh",
     },
     {
         dealerHand: 6,
         playerHand: ['A', 3],
-        answer: "DoH",
+        answer: "doh",
     },
     {
         dealerHand: 7,
