@@ -3,37 +3,37 @@ const SoftThirteenArray = [
     {
         dealerHand: 2,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "dos",
     },
     {
         dealerHand: 3,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "dos",
     },
     {
         dealerHand: 4,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "dos",
     },
     {
         dealerHand: 5,
         playerHand: ['A', 2],
-        answer: "doh",
+        answer: "dos",
     },
     {
         dealerHand: 6,
         playerHand: ['A', 2],
-        answer: "doh",
+        answer: "dos",
     },
     {
         dealerHand: 7,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "stand",
     },
     {
         dealerHand: 8,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "stand",
     },
     {
         dealerHand: 9,

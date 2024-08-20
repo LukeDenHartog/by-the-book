@@ -1,5 +1,5 @@
 
-const SoftThirteenArray = [
+const SoftSeventeenArray = [
     {
         dealerHand: 2,
         playerHand: ['A', 2],
@@ -8,12 +8,12 @@ const SoftThirteenArray = [
     {
         dealerHand: 3,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "doh",
     },
     {
         dealerHand: 4,
         playerHand: ['A', 2],
-        answer: "hit",
+        answer: "doh",
     },
     {
         dealerHand: 5,
@@ -52,4 +52,4 @@ const SoftThirteenArray = [
     }
 ]
 
-export default SoftThirteenArray;
+export default SoftSeventeenArray;
