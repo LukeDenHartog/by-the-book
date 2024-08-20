@@ -56,8 +56,7 @@ function SoftTotalsTraining() {
                 <Card.ImgOverlay className="training-img-overlay">
                     <h2>Dealer's hand: {randomItems[currentIndex].dealerHand}</h2>
                     <h2>vs.</h2>
-                    <h2>Player 1's hand: {randomItems[currentIndex].playerHand}</h2>
-                    <Card.Body className="soft-training-card-body" />
+                    <h2 id="playerHandHeader">Your hand: {randomItems[currentIndex].playerHand}</h2>
                     <Row id="soft-training-row">
                         <Col xs={6} className="soft-button-col">
                             <Button
