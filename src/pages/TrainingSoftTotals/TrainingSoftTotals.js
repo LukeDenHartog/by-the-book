@@ -41,7 +41,8 @@ function SoftTotalsTraining() {
     function findCorrectAnswer(playerInput) {
         if (playerInput === randomItems[currentIndex].answer) {
             incrementScore();
-        }
+            prompt('correct')
+        }else {prompt(`incorrect, the answer was ${randomItems[currentIndex].answer}`)}
         incrementIndex();
     }
 
