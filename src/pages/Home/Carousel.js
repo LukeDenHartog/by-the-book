@@ -2,6 +2,7 @@ import './Carousel.css'
 import './SlideButtons.css'
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import greenTopImg from '../../assets/images/HomePagePhotos/carouselPhotos/Greentop.jpg';
 import groupHandsImg from '../../assets/images/HomePagePhotos/carouselPhotos/Grouphands.jpeg'
 import redTopImg from '../../assets/images/HomePagePhotos/carouselPhotos/Redtop.jpg'
@@ -22,7 +23,9 @@ function HomeCarousel() {
           <div className="caption-background"> 
             <p className="carousel-paragraph">The main objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.</p>
           </div>
-          <Button className="learn-more-button"variant="primary">Learn More</Button>
+          <Link to='/basic-rules'>
+            <Button className="learn-more-button"variant="primary">Learn More</Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,8 +39,9 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carousel-paragraph">A widely-used approach that determines the optimal move for every hand—whether to hit, stand, double, or split.</p>
           </div>
-      
-          <Button className="basic-strat-button" id="quiz--button" variant="warning">Mini Quiz</Button>
+          <Link to='/training-menu'>
+            <Button className="basic-strat-button" id="quiz--button" variant="warning">Training</Button>
+          </Link>
           <Button className="learn-more-button basic-strat-button" id=""variant="primary">Learn More</Button>
 
         </Carousel.Caption>
@@ -67,7 +71,9 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carousel-paragraph">Gambling addiction is a compulsive and uncontrollable urge to gamble despite severe consequences.</p>
           </div>
-          <Button className="learn-more-button" variant="primary">Learn More</Button>
+          <Link to='/addiction-help'>
+            <Button className="learn-more-button" variant="primary">Learn More</Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -81,7 +87,9 @@ function HomeCarousel() {
           <div className="caption-background">
             <p className="carousel-paragraph">Some helpful advice on navigating the sportsbooks.</p>
           </div>
-          <Button className="learn-more-button" variant="primary">Learn More</Button>
+          <Link to='/betting-advice'>
+            <Button className="learn-more-button" variant="primary">Learn More</Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -1,6 +1,7 @@
 import './Navbar.css';
 import React, { useState, useEffect, useCallback } from 'react';
 import { Navbar, Container, Offcanvas, Nav, NavDropdown } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import downArrowImg from './down-arrow-image.png';
 
 function NavbarModule() {
@@ -28,7 +29,9 @@ function NavbarModule() {
     <Navbar expand="lg" className="mb-3 nav-background">
       <Container fluid>
         <Navbar.Brand href="#">
+          <Link to="/">
           <h2 className="brand-name-color">By the Book</h2>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" onClick={handleShowOffCanvas} />
         <Navbar.Offcanvas
@@ -47,20 +50,30 @@ function NavbarModule() {
             <Nav className="me-auto">
               <Nav className="off-canvas-styling">
                 <NavDropdown title={<><h5>Black Jack (21)</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Basic Rules</NavDropdown.Item>
+                  <Link to="/basic-rules">
+                    <NavDropdown.Item href="#action/3.1">Basic Rules</NavDropdown.Item>
+                  </Link>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.2">Basic Strategy</NavDropdown.Item>
+                  <Link to="/">
+                    <NavDropdown.Item href="#action/3.2">Basic Strategy</NavDropdown.Item>
+                  </Link>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Counting Cards</NavDropdown.Item>
+                  <Link to="/">
+                    <NavDropdown.Item href="#action/3.4">Counting Cards</NavDropdown.Item>
+                  </Link>
                 </NavDropdown>
               </Nav>
               <Nav className="off-canvas-styling">
                 <NavDropdown title={<><h5>Gambling Advice</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Betting</NavDropdown.Item>
+                  <Link to="/betting-advice">
+                    <NavDropdown.Item href="#action/3.1">Sports Betting</NavDropdown.Item>
+                  </Link>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.2">Sports</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Blackjack Betting</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.3">Support for Gambling Addiction</NavDropdown.Item>
+                  <Link to="/addiction-help">
+                    <NavDropdown.Item href="#action/3.3">Support for Gambling Addiction</NavDropdown.Item>
+                  </Link>
                 </NavDropdown>
               </Nav>
             </Nav>
