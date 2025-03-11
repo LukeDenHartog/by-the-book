@@ -28,10 +28,8 @@ function NavbarModule() {
   return (
     <Navbar expand="lg" className="mb-3 nav-background">
       <Container fluid>
-        <Navbar.Brand href="#">
-          <Link to="/">
+      <Navbar.Brand as={Link} to="/">
           <h2 className="brand-name-color">By the Book</h2>
-          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" onClick={handleShowOffCanvas} />
         <Navbar.Offcanvas
@@ -50,49 +48,39 @@ function NavbarModule() {
             <Nav className="me-auto">
               <Nav className="off-canvas-styling">
                 <NavDropdown title={<><h5>Black Jack (21)</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                  <Link to="/basic-rules">
-                    <NavDropdown.Item href="#action/3.1">Basic Rules</NavDropdown.Item>
-                  </Link>
+                  <NavDropdown.Item as={Link} to='/basic-rules'>Basic Rules</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <Link to="/">
-                    <NavDropdown.Item href="#action/3.2">Basic Strategy</NavDropdown.Item>
-                  </Link>
+                  <NavDropdown.Item as={Link} to="/">Basic Strategy</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <Link to="/">
-                    <NavDropdown.Item href="#action/3.4">Counting Cards</NavDropdown.Item>
-                  </Link>
+                  <NavDropdown.Item as={Link} to="/">Counting Cards</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Nav className="off-canvas-styling">
                 <NavDropdown title={<><h5>Gambling Advice</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                  <Link to="/betting-advice">
-                    <NavDropdown.Item href="#action/3.1">Sports Betting</NavDropdown.Item>
-                  </Link>
+                  <NavDropdown.Item as={Link} to="/betting-advice">Sports Betting</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.2">Blackjack Betting</NavDropdown.Item>
+                  <NavDropdown.Item>Blackjack Betting</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <Link to="/addiction-help">
-                    <NavDropdown.Item href="#action/3.3">Support for Gambling Addiction</NavDropdown.Item>
-                  </Link>
+                  <NavDropdown.Item as={Link} to="addiction-help">Support for Gambling Addiction</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Nav>
             <Nav className="off-canvas-styling">
               <NavDropdown title={<><h5>About us</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
+                <NavDropdown.Item>News</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.2">About By the Book</NavDropdown.Item>
+                <NavDropdown.Item>About By the Book</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">My GitHub Profile</NavDropdown.Item>
+                <NavDropdown.Item>My GitHub Profile</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav className="off-canvas-styling" id="last-nav-element">
               <NavDropdown title={<><h5>Account</h5><img src={downArrowImg} alt="Down Arrow" className="down-arrow" /></>} id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Log in</NavDropdown.Item>
+                <NavDropdown.Item>Log in</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.2">Sign out</NavDropdown.Item>
+                <NavDropdown.Item>Sign out</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Settings</NavDropdown.Item>
+                <NavDropdown.Item>Settings</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Offcanvas.Body>
