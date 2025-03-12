@@ -61,7 +61,7 @@ function NavbarModule() {
                   <NavDropdown.Divider />
                   <NavDropdown.Item>Blackjack Betting</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item as={Link} to="addiction-help">Support for Gambling Addiction</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/addiction-help">Support for Gambling Addiction</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Nav>
