@@ -11,7 +11,7 @@ function AddictionPage() {
             <Navbar />      
             <HoldingHandsModule />
             <article id="addiction-page-article"> 
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Recognize the Problem</h2>
                     <ol>
                         <li>
@@ -28,7 +28,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Seek Professional Help</h2>
                     <ol>
                         <li><h3>Therapists and Counselors:</h3>
@@ -50,7 +50,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Utilize Resources</h2>
                     <ol>
                         <li><h3>Helplines and Hotlines:</h3>
@@ -70,7 +70,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Implement Practical Steps</h2>
                     <ol>
                         <li><h3>Financial Management:</h3>
@@ -91,7 +91,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Build a Support Network</h2>
                     <ol>
                         <li><h3>Family and Friends:</h3>
@@ -106,7 +106,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Adopt Healthy Lifestyle Changes</h2>
                     <ol>
                         <li><h3>Alternative Activities:</h3>
@@ -121,7 +121,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Stay Committed</h2>
                     <ol>
                         <li><h3>Regular Counseling:</h3>
@@ -141,7 +141,7 @@ function AddictionPage() {
                         </li>
                     </ol>
                 </section>
-                <section class="article-section">
+                <section className="article-section">
                     <h2 className="addiction-header-02">Emergency Measures</h2>
                     <ol>
                         <li><h3>Crisis Plan:</h3>
