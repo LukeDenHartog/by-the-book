@@ -21,11 +21,11 @@ function SoftTotalsTraining() {
             result.push(tempArray[randomIndex]);
             tempArray.splice(randomIndex, 1);
         }
-        
         return result;
     }
 
-    const randomItems = getRandomItems(SoftTotalArrays, 40);
+    const [randomItems] = useState(() => getRandomItems(SoftTotalArrays, 40));
+// The () => getRandomItems(SoftTotalArrays, 39) is called a lazy initializer. It tells React: "Hey React, when you're ready, call this function to get the value"
 
     const incrementScore = () => {
         setCurrentSoftScore(currentSoftScore + 1);
@@ -41,6 +41,7 @@ function SoftTotalsTraining() {
     function findCorrectAnswer(playerInput) {
         if (playerInput === randomItems[currentIndex].answer) {
             incrementScore();
+            incrementIndex();
             prompt('correct')
         }else {prompt(`incorrect, the answer was ${randomItems[currentIndex].answer}`)}
         incrementIndex();
