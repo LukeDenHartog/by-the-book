@@ -5,9 +5,9 @@ import Home from "./pages/Home/LandingPage";
 import AddictionPage from "./pages/AddictionHelp/AddictionPage";
 import BasicRules from "./pages/BlackjackRules/RulesPage";
 import BettingAdvicePage from "./pages/SportsBettingAdvice/BettingAdvice";
-import OptionsMenuPage from "./pages/BasicStrategyQuiz/ChallengeNavigation/OptionsMenu";
-import SoftTotalsTrainingPage from "./pages/TrainingSoftTotals/TrainingSoftTotals";
-import TrainingMenuPage from "./pages/BasicStrategyQuiz/ChallengeNavigation/Training/TrainingStartPage";
+import OptionsMenuPage from "./pages/BasicStrategyTraining/ChallengeNavigation/OptionsMenu";
+import SoftTotalsTrainingPage from "./pages/BasicStrategyTraining/TrainingSoftTotals/TrainingSoftTotals";
+import TrainingMenuPage from "./pages/BasicStrategyTraining/ChallengeNavigation/Training/TrainingStartPage";
 
 
 function App() {

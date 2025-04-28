@@ -10,6 +10,7 @@ import NavbarModule from '../../../../components/Navbar/Navbar.js';
 import Footer from '../../../../components/Footer/Footer.js';
 import OptionsHomeButton from '../../../../components/Buttons/OptionsHomeButton.js';
 import BasicStratHomeButton from '../../../../components/Buttons/BasicStratHomeButton.js';
+import { Link } from "react-router-dom";
 
 function TrainingOptionsModule() {
   return (
@@ -25,7 +26,7 @@ function TrainingOptionsModule() {
                     <Card.Text>
                         Soft totals involve a hand that includes an Ace counted as 11, offering flexibility as the Ace can be valued as 1 if needed to avoid busting.
                     </Card.Text>
-                    <Button variant="primary">Play Now</Button>
+                    <Button variant="primary" as={Link} to="/soft-totals-training">Play Now</Button>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -37,7 +38,7 @@ function TrainingOptionsModule() {
                     <Card.Text>
                         Hard totals refer to the sum of a player's cards without an Ace being counted as 11, meaning the hand has a fixed value that can't be adjusted.
                     </Card.Text>
-                    <Button variant="primary">Play Now</Button>
+                    <Button variant="primary" as={Link} to="/hard-totals-training">Play Now</Button>
                     </Card.Body>
                 </Card>
                 </Col>
